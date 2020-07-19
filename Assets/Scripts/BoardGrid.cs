@@ -27,14 +27,14 @@ public class BoardGrid : MonoBehaviour
         {
             for (int j = 0; j < boardTiles.SideLength; j++)
             {
-                board[i, j] = Instantiate(tiles[i, j], new Vector3(i * boardTiles.Offset, 0, j * boardTiles.Offset), Quaternion.identity, transform);
+                board[i, j] = Instantiate(tiles[i, j], new Vector3(i * boardTiles.Offset, tiles[i, j].transform.position.y, j * boardTiles.Offset), Quaternion.identity, transform);
             }
         }
     }
 
     private IEnumerator SetupAnimation()
     {
-        yield return new WaitForSecondsRealtime(2);
+        yield return new WaitForSeconds(boardTiles.startAnimationDelay);
 
         Sequence main = DOTween.Sequence();
         for (int i = 0; i < boardTiles.SideLength; i++)
@@ -43,7 +43,7 @@ public class BoardGrid : MonoBehaviour
             for (int j = 0; j < boardTiles.SideLength; j++)
             {
                 var tile = board[i, j].transform;
-                sequence.Join(tile.DOJump(tile.position, 1, 1, 0.5f));
+                sequence.Join(tile.DOJump(tile.position, 1, 1, boardTiles.jumpAnimationDuration));
             }
             main.Append(sequence);
         }

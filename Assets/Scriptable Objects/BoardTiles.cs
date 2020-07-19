@@ -5,9 +5,14 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Tile", menuName = "Scriptable Objects/Board")]
 public class BoardTiles : ScriptableObject
 {
+    [Header("Tile Properties")]
     public List<Tile> tiles;
     public float Offset;
     public int SideLength = 8;
+    [Space]
+    [Header("Animation")]
+    public float startAnimationDelay = 1f;
+    public float jumpAnimationDuration = 1f;
     
     private GameObject[,] tileObjs;
 
