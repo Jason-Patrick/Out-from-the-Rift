@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: MountainTile
   m_EditorClassIdentifier: 
   tileObj: {fileID: 6686363437070193610, guid: 21c4ed361873d06469967e763b58619b, type: 3}
+  countOnBoard: 6

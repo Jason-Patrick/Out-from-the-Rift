@@ -12,16 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2162bd82d06c944438c05134b86a3353, type: 3}
   m_Name: TemperateBoard
   m_EditorClassIdentifier: 
+  baseTile: {fileID: 11400000, guid: accdbb4d5545b0646b16a60e1397a75d, type: 2}
   tiles:
   - {fileID: 11400000, guid: 5d5000c4fb1f3d04c8aaf82597303c69, type: 2}
   - {fileID: 11400000, guid: 3aefbebf449afba4cbbef8d1d86c2ad7, type: 2}
   - {fileID: 11400000, guid: 947d799813ecbd64c8ba72da043e9bcf, type: 2}
-  - {fileID: 11400000, guid: accdbb4d5545b0646b16a60e1397a75d, type: 2}
-  - {fileID: 11400000, guid: accdbb4d5545b0646b16a60e1397a75d, type: 2}
-  - {fileID: 11400000, guid: accdbb4d5545b0646b16a60e1397a75d, type: 2}
-  - {fileID: 11400000, guid: accdbb4d5545b0646b16a60e1397a75d, type: 2}
-  - {fileID: 11400000, guid: accdbb4d5545b0646b16a60e1397a75d, type: 2}
-  - {fileID: 11400000, guid: 3aefbebf449afba4cbbef8d1d86c2ad7, type: 2}
   Offset: 1
   SideLength: 8
   startAnimationDelay: 1

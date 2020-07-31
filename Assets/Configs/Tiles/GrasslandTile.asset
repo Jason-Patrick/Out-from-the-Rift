@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: GrasslandTile
   m_EditorClassIdentifier: 
   tileObj: {fileID: 4156174856111383699, guid: 2ab071c4a92ae114e9b715c30474e858, type: 3}
+  countOnBoard: -1

@@ -6,5 +6,6 @@ using UnityEngine;
 public class Tile : ScriptableObject
 {
     public GameObject tileObj;
-    public GameObject GetTile() { return tileObj; }
+    public int countOnBoard;
+    //public GameObject GetTile() { return tileObj; }
 }

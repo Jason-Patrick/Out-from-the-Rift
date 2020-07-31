@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: CityTile
   m_EditorClassIdentifier: 
   tileObj: {fileID: 5698831217665769233, guid: 6b7205a115b86264380f2a83537d212f, type: 3}
+  countOnBoard: 5

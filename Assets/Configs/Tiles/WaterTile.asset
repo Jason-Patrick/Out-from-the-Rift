@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: WaterTile
   m_EditorClassIdentifier: 
   tileObj: {fileID: 4937283519910685396, guid: 38f79979b9d2cf04bb95c737aac3b3b7, type: 3}
+  countOnBoard: 9
